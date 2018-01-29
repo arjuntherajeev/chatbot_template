@@ -1,0 +1,6 @@
+---
+applications:
+ - name: convo-app
+   host: arjun-convo-app
+   memory: 128M
+   buildpack: python_buildpack

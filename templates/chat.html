@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Chatbot - IBM Day @ Dtec</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="static/stylesheets/chat.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="frame">
+        <div class="content">
+            <div class="contact-profile">
+                <img src="/static/images/watson_avatar.png" alt="" />
+                <p>Chatbot @ Dtec</p>
+            </div>
+            <div class="messages">
+                <ul></ul>
+            </div>
+            <div class="message-input">
+                <div class="wrap">
+                    <input type="text" id='message_val' placeholder="Write your message..." />
+                    <button onclick="window.location.href = ('/send_message/'+document.getElementById('message_val').value)" class="submit">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="static/javascript/chat.js" type="text/javascript"></script>
+</body>
+</html>
