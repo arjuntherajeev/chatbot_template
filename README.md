@@ -18,10 +18,10 @@ This is a Python Flask web application with a simple _chat-friendly_ User Interf
 4. Open a terminal and run the commands: 
 	- `bx login`
 	- `bx target -o ORG -s SPACE`
-	- `bx cf push` 
+	- `bx app push` 
 	
 ### Presentation
-The presentation slides are available for downloaded [here](https://ibm.box.com/v/WatsonConversationDtec)!
+The presentation slides are available for download [here](https://ibm.box.com/v/WatsonConversationDtec)!
 
 ### Help
 [Watson Conversation Python API Reference](https://www.ibm.com/watson/developercloud/conversation/api/v1/?python)
